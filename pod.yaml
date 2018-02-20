@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: laravel-mysql
+  labels:
+    name: laravel-mysql
+spec:
+  containers:
+    - image: launcher.gcr.io/google/mysql5
+      name: mysql
+      env:
+        - name: "MYSQL_ROOT_PASSWORD"
+          value: "mysql"
