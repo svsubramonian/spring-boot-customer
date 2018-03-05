@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.example.demo.message.Response;
 import com.example.demo.model.Customer;
-import com.example.demo.repo.CustomerRepository;
+import com.example.demo.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
